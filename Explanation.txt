@@ -1,0 +1,24 @@
+Graph 1 (bubbleVsQuick):
+	- The green graph illustrates the runtime of (nlogn) as a running time indication for the other functions.
+	- The red graph describes the quickSort function. The input is a random array with an arbitrary point which is used as the pivot (the rightest index in the array).
+	As we can see the graph looks like O(nlogn) up to a constant.
+	- The blue graph describes the behavior of the bubbleSort function. The input is a random array.  The graph illustrates that it’s running time is O(n^2).
+
+Graph 2 (mergeVsQuick):
+	- The green graph illustrates the runtime of (nlogn) as a running time indication for the other functions.
+	- The red graph describes the quickSort function. The input is a random array with an arbitrary point which is used as a pivot (the rightest index in the array).
+	As we can see the graph looks like O(nlogn) up to a constant.
+	- The blue graph describes the behavior of megreSort. The input is a random array. The graph presents O(nlogn) run time.
+
+Graph 3 (bubbleVsQuickOnSortedArray):
+	- The green graph illustrates the runtime of (nlogn) as a running time indication for the other functions.
+	- The red graph describes the quickSort function. The input is a sorted array, with an arbitrary point, which is used as the pivot (the rightest index in the array). As can be seen, the run time is O(n^2).
+	In this case, the function's runtime will be the worse-case of the complexity run-time options because the given array is already sorted, and we choose the last index as the pivot. Therefore, the function will run as O(n^2).
+	- The blue graph describes the behavior of the bubbleSort function. The input is a sorted array. The graph can almost not be seen and remains in the same place, because bubbleSort stops running if the array is sorted.
+
+Graph 4 (arbitraryPivotVsMedianPivot):
+	- The green graph illustrates the runtime of (nlogn) as a running time indication for the other functions.
+	- The red graph is the quickSort function. The input is a random array with an arbitrary point which is used as the pivot (the rightest index in the array).
+	As we can see the graph looks like O(nlogn) up to a constant.
+	- The blue graph describes the behavior of quickSort function. The input is a random array with a median point as a pivot (the median is chosen between the rightmost value, middle value and leftmost value).
+ 	As we can see the graph looks like O(nlogn) up to a constant. As can be seen according to the graphs, there is no significant difference between the run times of both sorting functions.
